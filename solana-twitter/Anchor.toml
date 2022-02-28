@@ -1,0 +1,15 @@
+[features]
+seeds = false
+[programs.localnet]
+solana_twitter = "4G53GfqsgzhhMcXR94jMCwHDzXPHskEbRuE5VxQ9d9Cu"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "http://127.0.0.1:8899"
+wallet = "/home/work/.config/solana/devnet.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+my-custom-script = "echo 'Hello world!'"
