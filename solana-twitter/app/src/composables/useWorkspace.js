@@ -19,5 +19,6 @@ export const initWorkspace = () => {
         wallet,
         connection,
         provider,
+        program,
     }
 }
